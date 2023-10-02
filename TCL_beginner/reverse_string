@@ -1,0 +1,11 @@
+# reverse a string 
+set a "jabin"
+set reversed [string reverse $a]
+puts $reversed
+
+# reverse string of whole list
+# set a {jabin muna mahi rifat}
+set a {jabin muna mahi rifat}
+set reversed [lreverse $a]
+puts $reversed
+
